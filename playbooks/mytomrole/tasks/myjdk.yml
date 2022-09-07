@@ -1,0 +1,5 @@
+---
+- name: install jdk8 on amazonlinux2 node
+  yum:
+    name: java-1.8.0-openjdk
+    state: present
